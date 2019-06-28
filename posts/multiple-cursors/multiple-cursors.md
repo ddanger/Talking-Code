@@ -6,11 +6,14 @@
 The image above shows _many instances_ of Dr. Strange, but just for a second, let's imagine it's him with a bunch of extra arms. How awesome would that be? Think of the surgeries he could perform with all those!
 
 
-Dr. Strange: "Scalpel please."
+                DR. STRANGE
+        Scalpel!
 
-Nurse: "Um... you're holding it."
+                ASSISTANT
+        Um... you're holding it.
 
-Dr. Strange: "What? Oh yeah, I can never remember what's in that 6th arm."
+                DR. STRANGE
+        What?! Oh yeah, arm number 6. Sorry!
 
 But seriously, how cool would it be to have a few extra arms/hands to get more work done? It's just fantasy, but the reality is, sometimes I feel like this when I'm editing code using **multiple cursors**.
 
