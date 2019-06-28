@@ -1,2 +1,2 @@
 # blog-posts
-private testing ground for blog post ideas
+This is a private testing ground for blog post ideas.
