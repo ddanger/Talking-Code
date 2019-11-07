@@ -14,7 +14,7 @@ The image above shows _many instances_ of Dr. Strange just before he uses these 
                 DR. STRANGE
         What?! Oh yes, arm number 6!
 
-How cool would it be to have a few extra arms to get more work done with? While we won't be getting multiple arms anytime soon, sometimes I feel like I already have them when using **multiple cursors** in code.
+How cool would it be to have a few extra arms to get more work done? While we won't be getting multiple arms anytime soon, sometimes I feel like I already have them when using **multiple cursors**.
 
 ## Multiple cursors, huh?
 
@@ -29,23 +29,22 @@ Before showing the common uses, you need to understand the basics of how to add 
 ### In VS Code on macOS
 
 -   OPT+CLICK: adds a cursor where you clicked
--   CMD+D: adds a cursor at the current selection's next match<sup>\*</sup>
+-   CMD+D: adds a cursor at the current selection's next match
 -   CMD+SHIFT+L: adds cursors at all matches for the current selection
 -   CMD+U: Remove most recently added cursor(s). Really this undoes the last cursor operation and is like CMD+Z but for your cursor operations. Very powerful. I don't know of any way to _redo_ the last undone cursor operation. Do you? Please fill me in!
 -   ESC or CLICK: Remove all added cursors
 -   Add another cursor on the line below this one
 -   Add another cursor on the line above this one.
-    <sub>\* Note: in VS Code, whether the next match is case-sensitive or restricted to whole-word matches is governed by a small popup that appears in the upper right.</sub>
 
 You may want to try these in your own editor to get a feel for them before continuing.
 
-## Why not just use find/replace?
+## BUT... why not just use find/replace?
 
 ![](https://cnet1.cbsistatic.com/img/ab9ZqBn8bHqACaSY0PiENzVz6EU=/980x551/2016/10/24/a8d0765a-c5cd-4a54-adbe-4ca99418e6c5/strange5.jpg)
 <sub>Image from: https://cnet1.cbsistatic.com/img/ab9ZqBn8bHqACaSY0PiENzVz6EU=/980x551/2016/10/24/a8d0765a-c5cd-4a54-adbe-4ca99418e6c5/strange5.jpg</sub>
 
     You're looking at the world through a keyhole.
-    You've spent your whole life trying to widen that keyhole. To see more. To know more.
+    You've spent your whole life trying to widen that keyhole...
     And now on hearing that it can be widened,
       in ways you can't imagine,
       you reject the possibility!
@@ -56,7 +55,7 @@ When first learning about multiple cursors some years ago I wondered why we need
 
 One thing multiple cursors can _not_ do is operate on multiple files at the same time. This is where you need find/replace.
 
-## When should I use multiple cursors?
+## Basic level
 
 I'll share my most common use cases. Let me know if I'm missing one of yours. Once you start using them, you find lots of excuses to use them more.
 
@@ -83,9 +82,9 @@ With multiple cursors I can just:
 
 As you can see, going the multiple cursor route saves steps. And most importantly it completely avoids moving the mouse out of the editing area. Mouse moves are productivity killers.
 
-## Building Blocks
+## Building blocks to level up
 
-Find/replace is the simplest use case for multiple cursors. To move beyond this you need to pair multiple cursors with other techniques I consider building blocks. These are platform-specific, so learn how your platform works.
+Find/replace is the simplest use case for multiple cursors. To move beyond this you need to pair multiple cursors with other techniques I consider building blocks. These are platform-specific keyboard combinations to move the cursor and select/unselect. Learn how to do them on your platform. (These will also really help you in word processing outside your code editor)
 
 ### Move the cursor one character/line (start with the obvious)
 
@@ -124,6 +123,8 @@ There are many many combinations of using SHIFT with cursor moves so I'll just h
 ### Selecting a column of text
 
 Typically when you select text and move the cursor up or down a line, it selects the entire line. But it is possible to just select a column, or "rectangle", of text instead. And when you do this, you get a cursor on each line. To do it, start by placing the cursor at the top-left of the column you want to select. Then hold SHIFT+OPT and click and drag with the mouse down and to the right. Let go when you have to column you want selected. You'll see a cursor at each line.
+
+## Sorcerer Level
 
 ### One-line to multiple (or vice versa)
 
@@ -194,6 +195,8 @@ Sometime you have some things you assigned to variables but you want them to be 
 ![](var-to-object.gif)
 
 The reverse of this can be done using the same same principles. I'll leave it as an exercise.
+
+## Sorcerer Supreme Level
 
 ### Repetitive structure editing
 
