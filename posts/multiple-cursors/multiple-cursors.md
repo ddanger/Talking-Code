@@ -198,9 +198,9 @@ The reverse of this can be done using the same same principles. I'll leave it as
 
 ## Sorcerer Supreme Level
 
-### Repetitive structure editing
+### Repetitive structure editing (e.g. JS objects -> React)
 
-This is where I feel I get the biggest bang for the buck with multiple cursors. If I have 10 or more JS objects that I need to edit in a similar way, multiple cursors are a must. The best recent example I have is converting JavaScript objects to React components. I had an array of a bunch of objects and needed to turn them into components for some static content we were displaying.
+There are times when I have a bunch of objects or data in a certain format and I need to chanage it into some other format. If I have 10 or more JS objects that I need to edit in a similar way, multiple cursors are a must. The best recent example I have is converting JS objects to React components.
 
 How did I do it?
 
