@@ -209,7 +209,10 @@ The reverse of this can be done using the same same principles. I'll leave it as
 ![](https://m.media-amazon.com/images/M/MV5BZTRjZTg5M2UtNDIxOC00ZDFjLWI3ZWYtN2ZiOTM1YzBhMTYzXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,747_AL_.jpg)
 <sub><sup>Image from: https://www.imdb.com/title/tt1211837/mediaviewer/rm2558936320</sup></sub>
 
-    Dr. Strange: I'm not ready.
-    The Ancient One: No one ever is. We don't get to choose our time.
+    Dr. Strange:
+            I'm not ready.
+    The Ancient One:
+            No one ever is.
+            We don't get to choose our time.
 
 Now is _your_ time to use multiple cursors. You are only limited by your imagination. Stay curious and practice, practice, practice!
