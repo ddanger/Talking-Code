@@ -40,7 +40,8 @@ You may want to try these in your own editor to get a feel for them before conti
 <sub><sup>Image from: https://cnet1.cbsistatic.com/img/ab9ZqBn8bHqACaSY0PiENzVz6EU=/980x551/2016/10/24/a8d0765a-c5cd-4a54-adbe-4ca99418e6c5/strange5.jpg</sup></sub>
 
     You're looking at the world through a keyhole.
-    You've spent your whole life trying to widen that keyhole...
+    You've spent your whole life trying to widen that keyhole
+    ...
     And now on hearing that it can be widened,
       in ways you can't imagine,
       you reject the possibility!
