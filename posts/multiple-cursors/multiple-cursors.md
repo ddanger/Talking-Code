@@ -1,47 +1,43 @@
 # The Magic of Multiple Cursors
 
 ![](https://m.media-amazon.com/images/M/MV5BNWM5OGEyODktMWE3MS00NjMzLTg5ZjEtZjhkN2Y0MDk0Yjk4XkEyXkFqcGdeQXVyOTc0MTQ5NzA@._V1_SX1777_CR0,0,1777,999_AL_.jpg)
-<sub>Image from: https://www.imdb.com/title/tt4154756/mediaviewer/rm3030477312</sub>
+<sub><sup>Image from: https://www.imdb.com/title/tt4154756/mediaviewer/rm3030477312</sup></sub>
 
-The image above shows _many instances_ of Dr. Strange just before he uses these clones to restrain Thanos. Imagine instead that it's him with a bunch of extra arms. How awesome would that be? Think of the surgeries he could perform with all those!
-
-                DR. STRANGE
-        Scalpel!
-
-                ASSISTANT
-        Um... you're holding it.
-
-                DR. STRANGE
-        What?! Oh yes, arm number 6!
-
-How cool would it be to have a few extra arms to get more work done? While we won't be getting multiple arms anytime soon, sometimes I feel like I already have them when using **multiple cursors**.
+In a failed attempt to restrain Thanos, Dr. Strange magically conjured many clones of himself. But the still picture made it look like he had a bunch of extra arms. How cool would it be to have a few extra arms as a software developer? While multiple arms is an unlikely upgrade in my lifetime, sometimes I feel like I already have them when using **multiple cursors**.
 
 ## Multiple cursors, huh?
 
-Multiple cursors is a text editor feature pioneered by Sublime Text. These days it's been adopted by most modern code editors. Of course the _cursor_ is where the things you type appear, so imagine if you had 2 or 3 _or 100_ of those cursors on screen! Whatever you typed would happen **simultaneously at _every_ cursor location**. You type a word, and that word is inserted at each of those cursors. Sounds like magic. But what good is it?
+Multiple cursors is a text editor feature pioneered by Sublime Text. These days it's been adopted by most modern code editors. Of course the _cursor_ is where the things you type appear, so imagine if you had 2 or 3 _or 100_ of those cursors on screen! Whatever you typed would happen **simultaneously at _every_ cursor location**. You type a word, and that word is inserted at each of those cursors. Sounds like magic.
 
-In this post I'll show you how to use multiple cursors with demos of how I use them most often.
+But what good is it? Read on...
+
+How would you like to be able to do something like this (or vice versa)?
+
+![](js-to-react.gif)
+
+<sub><sup>(Hat-tip to [Prettier](https://prettier.io/) for the auto-formatting)</sup></sub>
+
+![teach me](https://i.giphy.com/media/26AHPxxnSw1L9T1rW/giphy.gif)
 
 ## How do you add/remove cursors?
 
-Before showing the common uses, you need to understand the basics of how to add and remove cursors. This is different for every editor/OS combination. I'm using [Visual Studio Code](https://code.visualstudio.com/) on a Mac. If you're not, do some research to learn the commands for your platform.
-
-### In VS Code on macOS
+Before showing some use cases, you need to understand the basics of how to add and remove cursors. This is different for every editor/OS combination. I'm using [Visual Studio Code](https://code.visualstudio.com/) on a Mac. If you're not, do some research to learn the commands for your platform.
 
 -   OPT+CLICK: adds a cursor where you clicked
 -   CMD+D: adds a cursor at the current selection's next match
 -   CMD+SHIFT+L: adds cursors at all matches for the current selection
--   CMD+U: Remove most recently added cursor(s). Really this undoes the last cursor operation and is like CMD+Z but for your cursor operations. Very powerful. I don't know of any way to _redo_ the last undone cursor operation. Do you? Please fill me in!
+-   CMD+U: Undo the last cursor operation (kind of like CMD+Z but for your cursor operations.) Very powerful. <sub><sup>Where there is "undo" there must be "redo", right? In their Oct. 2019 release VSCode introduced the Cursor Redo command but with no default keyboard shortcut. (So by default you have to do CMD+P then type "Cursor Redo" to find/run it)</sup></sub>
+-   CMD+K: Skip a match while adding cursors with CMD+D (essential)
 -   ESC or CLICK: Remove all added cursors
--   Add another cursor on the line below this one
--   Add another cursor on the line above this one.
+-   CMD+OPT+DOWN-ARROW: Add another cursor on the line below this one
+-   CMD+OPT+UP-ARROW: Add another cursor on the line above this one
 
 You may want to try these in your own editor to get a feel for them before continuing.
 
 ## BUT... why not just use find/replace?
 
 ![](https://cnet1.cbsistatic.com/img/ab9ZqBn8bHqACaSY0PiENzVz6EU=/980x551/2016/10/24/a8d0765a-c5cd-4a54-adbe-4ca99418e6c5/strange5.jpg)
-<sub>Image from: https://cnet1.cbsistatic.com/img/ab9ZqBn8bHqACaSY0PiENzVz6EU=/980x551/2016/10/24/a8d0765a-c5cd-4a54-adbe-4ca99418e6c5/strange5.jpg</sub>
+<sub><sup>Image from: https://cnet1.cbsistatic.com/img/ab9ZqBn8bHqACaSY0PiENzVz6EU=/980x551/2016/10/24/a8d0765a-c5cd-4a54-adbe-4ca99418e6c5/strange5.jpg</sup></sub>
 
     You're looking at the world through a keyhole.
     You've spent your whole life trying to widen that keyhole...
@@ -51,13 +47,19 @@ You may want to try these in your own editor to get a feel for them before conti
 
     - The Ancient One
 
-When first learning about multiple cursors some years ago I wondered why we needed a replacement for find/replace. Now I realize multiple cursors can do so much more. They can do things not possible with find/replace. Think about it. With typical find/replace, you can only replace what you found. With multiple cursors, you can move beyond what you've found into uncharted territory. That's where things get interesting.
+When first learning about multiple cursors some years ago I wondered why we needed a replacement for find/replace. Now I realize multiple cursors can do so much more. They can do things not possible with find/replace.
+
+Think about it. With typical find/replace, you can only replace what you found. With multiple cursors, you can move beyond what you've found into uncharted territory. That's where things get interesting!
 
 One thing multiple cursors can _not_ do is operate on multiple files at the same time. This is where you need find/replace.
 
-## Basic level
+## Level 1: Junior Sorcerer
 
-I'll share my most common use cases. Let me know if I'm missing one of yours. Once you start using them, you find lots of excuses to use them more.
+<img src="https://m.media-amazon.com/images/M/MV5BMTk3NDE4Njg0OF5BMl5BanBnXkFtZTgwODQ5MDAzMDI@._V1_SY1000_CR0,0,1502,1000_AL_.jpg">
+
+<sub><sup>Image from: https://www.imdb.com/title/tt1211837/mediaviewer/rm1725760256</sup></sub>
+
+Armed with the knowledge of how to add multiple cursors let's start out with the most basic use case.
 
 ### Find/Replace (in a single file)
 
@@ -124,7 +126,13 @@ There are many many combinations of using SHIFT with cursor moves so I'll just h
 
 Typically when you select text and move the cursor up or down a line, it selects the entire line. But it is possible to just select a column, or "rectangle", of text instead. And when you do this, you get a cursor on each line. To do it, start by placing the cursor at the top-left of the column you want to select. Then hold SHIFT+OPT and click and drag with the mouse down and to the right. Let go when you have to column you want selected. You'll see a cursor at each line.
 
-## Sorcerer Level
+## Level 2: Sorcerer
+
+<img src="https://m.media-amazon.com/images/M/MV5BODBiMWIwY2MtZTIzOS00NWIwLTk2YWYtYzhlOGEwNGE4MDMxXkEyXkFqcGdeQXVyNzg2ODI2OTU@._V1_SX1777_CR0,0,1777,733_AL_.jpg">
+
+<sub><sup>Image from: https://www.imdb.com/title/tt4154756/mediaviewer/rm2714394368</sup></sub>
+
+At the sorcerer level you take your knowledge of the cursor manipulation building blocks and combine them with multiple cursors as you gain experience.
 
 ### One-line to multiple (or vice versa)
 
@@ -196,88 +204,12 @@ Sometime you have some things you assigned to variables but you want them to be 
 
 The reverse of this can be done using the same same principles. I'll leave it as an exercise.
 
-## Sorcerer Supreme Level
+## Onward to Sorcerer Supreme
 
-### Repetitive structure editing (e.g. JS objects -> React)
+![](https://m.media-amazon.com/images/M/MV5BZTRjZTg5M2UtNDIxOC00ZDFjLWI3ZWYtN2ZiOTM1YzBhMTYzXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,747_AL_.jpg)
+<sub><sup>Image from: https://www.imdb.com/title/tt1211837/mediaviewer/rm2558936320</sup></sub>
 
-There are times when I have a bunch of objects or data in a certain format and I need to chanage it into some other format. If I have 10 or more JS objects that I need to edit in a similar way, multiple cursors are a must. The best recent example I have is converting JS objects to React components.
+    Dr. Strange: I'm not ready.
+    The Ancient One: No one ever is. We don't get to choose our time.
 
-How did I do it?
-
-#### Before
-
-```JavaScript
-let people = [
-    {
-        firstName: 'Bob',
-        lastName: 'Jones',
-        title: 'Manager',
-        address: {
-            line1: '475 1st St. South',
-            line2: 'Fakeland, MM 55555',
-        },
-        phone: '555-789-3948',
-        email: 'bobby@gmail.com',
-    },
-    {
-        firstName: 'Jessica',
-        lastName: 'Smith',
-        title: 'Director of Everything',
-        address: {
-            line1: '5 Blue Rd.',
-            line2: 'Awesome Place, MM 55555',
-        },
-        phone: '+1 555-032-3333',
-        email: 'jill@gmail.com',
-    },
-];
-```
-
-#### After
-
-```
-let people = (
-    <People>
-        <Person
-            firstName="Bob"
-            lastName="Jones"
-            title="Manager"
-            phone="555-789-3948"
-            email="bob@gmail.com"
-        >
-            <Address line1="475 1st St. South" line2="Fakeland, MM 55555" />
-        </Person>
-        <Person
-            firstName="Jill"
-            lastName="Smith"
-            title="Director"
-            phone="+1 555-032-3333"
-            email="jill@gmail.com"
-        >
-            <Address line1="892 101st St. North" line2="Fakeland, MM 55555" />
-        </Person>
-    </People>
-);
-
-```
-
-#### Set up your cursors
-
-The first thing to do is plan where you want cursors. In this case I'd want them at the beginning of each `Person` object which starts with the open curly brace. If you look you'll immediately see a problem. How can I select just those when there are other open curlys?
-
-##### Use whitespace for matching
-
-If I select from the beginning of the line to the open curly, then only the right ones match.
-
-### Get a cursor on _every_ line
-
--   CMD+A
--   SHIFT+OPT+I
-
-## Takeaways
-
-Now you know what you can do with multiple cursors
-
-## Comments?
-
-How do you use multiple cursors? Give me your tips so I can level-up. Thanks!
+Now is _your_ time to use multiple cursors. You are only limited by your imagination. Stay curious and practice, practice, practice!
