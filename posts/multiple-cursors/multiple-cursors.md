@@ -7,7 +7,7 @@ In a failed attempt to restrain Thanos, Dr. Strange magically conjured many clon
 
 ## Multiple cursors, huh?
 
-Multiple cursors is a text editor feature pioneered by Sublime Text. These days it's been adopted by most modern code editors. Of course the _cursor_ is where the things you type appear, so imagine if you had 2 or 3 _or 100_ of those cursors on screen! Whatever you typed would happen **simultaneously at _every_ cursor location**. You type a word, and that word is inserted at each of those cursors. Sounds like magic.
+Multiple cursors is a text editor feature pioneered by [Sublime Text](https://www.sublimetext.com/). These days it's been adopted by most modern code editors. Of course the _cursor_ is where the things you type appear, so imagine if you had 2 or 3 _or 100_ of those cursors on screen! Whatever you typed would happen **simultaneously at _every_ cursor location**. You type a word, and that word is inserted at each of those cursors. Sounds like magic.
 
 But what good is it? Read on...
 
