@@ -206,7 +206,7 @@ The reverse of this can be done using the same same principles. I'll leave it as
 
 ## Onward to Sorcerer Supreme
 
-![](https://m.media-amazon.com/images/M/MV5BZTRjZTg5M2UtNDIxOC00ZDFjLWI3ZWYtN2ZiOTM1YzBhMTYzXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,747_AL_.jpg)
+<img src="https://m.media-amazon.com/images/M/MV5BZThiODk4MzItZjMxMC00YTNkLWE1NjEtN2U4NmM3Nzg5ZGY0XkEyXkFqcGc@._V1_.jpg" sizes="100vw" srcset="https://m.media-amazon.com/images/M/MV5BZThiODk4MzItZjMxMC00YTNkLWE1NjEtN2U4NmM3Nzg5ZGY0XkEyXkFqcGc@._V1_FMjpg_UX320_.jpg 320w, https://m.media-amazon.com/images/M/MV5BZThiODk4MzItZjMxMC00YTNkLWE1NjEtN2U4NmM3Nzg5ZGY0XkEyXkFqcGc@._V1_FMjpg_UX480_.jpg 480w, https://m.media-amazon.com/images/M/MV5BZThiODk4MzItZjMxMC00YTNkLWE1NjEtN2U4NmM3Nzg5ZGY0XkEyXkFqcGc@._V1_FMjpg_UX600_.jpg 600w, https://m.media-amazon.com/images/M/MV5BZThiODk4MzItZjMxMC00YTNkLWE1NjEtN2U4NmM3Nzg5ZGY0XkEyXkFqcGc@._V1_FMjpg_UX1024_.jpg 1024w, https://m.media-amazon.com/images/M/MV5BZThiODk4MzItZjMxMC00YTNkLWE1NjEtN2U4NmM3Nzg5ZGY0XkEyXkFqcGc@._V1_FMjpg_UX1280_.jpg 1280w, https://m.media-amazon.com/images/M/MV5BZThiODk4MzItZjMxMC00YTNkLWE1NjEtN2U4NmM3Nzg5ZGY0XkEyXkFqcGc@._V1_FMjpg_UX2160_.jpg 2160w" alt="Tilda Swinton in Doctor Strange (2016)">
 <sub><sup>Image from: https://www.imdb.com/title/tt1211837/mediaviewer/rm2558936320</sup></sub>
 
     Dr. Strange:
