@@ -36,8 +36,8 @@ You may want to try these in your own editor to get a feel for them before conti
 
 ## BUT... why not just use find/replace?
 
-![](https://cnet1.cbsistatic.com/img/ab9ZqBn8bHqACaSY0PiENzVz6EU=/980x551/2016/10/24/a8d0765a-c5cd-4a54-adbe-4ca99418e6c5/strange5.jpg)
-<sub><sup>Image from: https://cnet1.cbsistatic.com/img/ab9ZqBn8bHqACaSY0PiENzVz6EU=/980x551/2016/10/24/a8d0765a-c5cd-4a54-adbe-4ca99418e6c5/strange5.jpg</sup></sub>
+<img src="https://m.media-amazon.com/images/M/MV5BMjA3NjMwMjg1M15BMl5BanBnXkFtZTgwMzQ5MDAzMDI@._V1_.jpg" sizes="100vw" srcset="https://m.media-amazon.com/images/M/MV5BMjA3NjMwMjg1M15BMl5BanBnXkFtZTgwMzQ5MDAzMDI@._V1_FMjpg_UX320_.jpg 320w, https://m.media-amazon.com/images/M/MV5BMjA3NjMwMjg1M15BMl5BanBnXkFtZTgwMzQ5MDAzMDI@._V1_FMjpg_UX480_.jpg 480w, https://m.media-amazon.com/images/M/MV5BMjA3NjMwMjg1M15BMl5BanBnXkFtZTgwMzQ5MDAzMDI@._V1_FMjpg_UX600_.jpg 600w, https://m.media-amazon.com/images/M/MV5BMjA3NjMwMjg1M15BMl5BanBnXkFtZTgwMzQ5MDAzMDI@._V1_FMjpg_UX1024_.jpg 1024w, https://m.media-amazon.com/images/M/MV5BMjA3NjMwMjg1M15BMl5BanBnXkFtZTgwMzQ5MDAzMDI@._V1_FMjpg_UX1280_.jpg 1280w, https://m.media-amazon.com/images/M/MV5BMjA3NjMwMjg1M15BMl5BanBnXkFtZTgwMzQ5MDAzMDI@._V1_FMjpg_UX2048_.jpg 2048w" alt="Tilda Swinton and Benedict Cumberbatch in Doctor Strange (2016)">
+<sub><sup>Image from: https://www.imdb.com/title/tt1211837/mediaviewer/rm467469056/</sup></sub>
 
     You're looking at the world through a keyhole.
     You've spent your whole life trying to widen that keyhole
