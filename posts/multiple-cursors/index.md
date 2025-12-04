@@ -129,8 +129,7 @@ Typically when you select text and move the cursor up or down a line, it selects
 
 ## Level 2: Sorcerer
 
-<img src="https://m.media-amazon.com/images/M/MV5BODBiMWIwY2MtZTIzOS00NWIwLTk2YWYtYzhlOGEwNGE4MDMxXkEyXkFqcGdeQXVyNzg2ODI2OTU@._V1_SX1777_CR0,0,1777,733_AL_.jpg">
-
+<img src="https://m.media-amazon.com/images/M/MV5BZjc2YmFkN2MtNDQwYS00ZGUxLWFhYmItMmFkZjQxZTdmMGJiXkEyXkFqcGc@._V1_.jpg" sizes="100vw" srcset="https://m.media-amazon.com/images/M/MV5BZjc2YmFkN2MtNDQwYS00ZGUxLWFhYmItMmFkZjQxZTdmMGJiXkEyXkFqcGc@._V1_FMjpg_UX320_.jpg 320w, https://m.media-amazon.com/images/M/MV5BZjc2YmFkN2MtNDQwYS00ZGUxLWFhYmItMmFkZjQxZTdmMGJiXkEyXkFqcGc@._V1_FMjpg_UX480_.jpg 480w, https://m.media-amazon.com/images/M/MV5BZjc2YmFkN2MtNDQwYS00ZGUxLWFhYmItMmFkZjQxZTdmMGJiXkEyXkFqcGc@._V1_FMjpg_UX600_.jpg 600w, https://m.media-amazon.com/images/M/MV5BZjc2YmFkN2MtNDQwYS00ZGUxLWFhYmItMmFkZjQxZTdmMGJiXkEyXkFqcGc@._V1_FMjpg_UX1024_.jpg 1024w, https://m.media-amazon.com/images/M/MV5BZjc2YmFkN2MtNDQwYS00ZGUxLWFhYmItMmFkZjQxZTdmMGJiXkEyXkFqcGc@._V1_FMjpg_UX1280_.jpg 1280w, https://m.media-amazon.com/images/M/MV5BZjc2YmFkN2MtNDQwYS00ZGUxLWFhYmItMmFkZjQxZTdmMGJiXkEyXkFqcGc@._V1_FMjpg_UX1920_.jpg 1920w" alt="Benedict Cumberbatch in Avengers: Infinity War (2018)">
 <sub><sup>Image from: https://www.imdb.com/title/tt4154756/mediaviewer/rm2714394368</sup></sub>
 
 At the sorcerer level you take your knowledge of the cursor manipulation building blocks and combine them with multiple cursors as you gain experience.
